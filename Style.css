@@ -72,7 +72,7 @@ h5{
 .contenedor .card {
     margin: 20px;
     border: 3px solid #007bff;
-    border-radius: 6%;
+    border-radius: 5.8%;
     padding: none;
 
 }
@@ -204,6 +204,16 @@ h5{
     inline-size: auto;
 }
 
+.espacio1[class="espacio1"] {
+    width: 200px;
+    height: 420px;
+    border-radius: 30px;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-top: 35px;
+    inline-size: auto;
+}
+
 .espacio2[class="espacio2"]{
     width: 200px;
     height: 465px;
@@ -240,18 +250,29 @@ h5{
     border-radius: 30px;
     margin-right: 80px;
     margin-left: 80px;
-    margin-top: 50px;
+    margin-top: 35px;
     inline-size: auto;
 }
 
 .espacio6[class="espacio6"]{
 
     width: 200px;
-    height: 600px;
+    height: 550px;
     border-radius: 30px;
     margin-right: 120px;
     margin-left: 120px;
-    margin-top: 50px;
+    margin-top: 35px;
+    inline-size: auto;
+}
+
+.espacio7[class="espacio7"]{
+
+    width: 200px;
+    height: 540px;
+    border-radius: 30px;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: 35px;
     inline-size: auto;
 }
 
@@ -275,36 +296,48 @@ h5{
     }
     .espacio:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
         transition:all .4s  ease-in-out;}
-        
-        .espacio2 {overflow:hidden;
+
+        .espacio1 {overflow:hidden;
             transition:all .4s  ease-in-out
         }
-        .espacio2:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
-            transition:all .4s  ease-in-out;}
-
-            .espacio3 {overflow:hidden;
-                transition:all .4s  ease-in-out
-            }
-            .espacio3:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
+            .espacio1:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
                 transition:all .4s  ease-in-out;}
-
-                .espacio4 {overflow:hidden;
+        
+                .espacio2 {overflow:hidden;
                     transition:all .4s  ease-in-out
                 }
-                .espacio4:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
-                    transition:all .4s  ease-in-out;}
-
-                    .espacio5 {overflow:hidden;
-                        transition:all .4s  ease-in-out
-                    }
-                    .espacio5:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
+                    .espacio2:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
                         transition:all .4s  ease-in-out;}
 
-                        .espacio6 {overflow:hidden;
+                        .espacio3 {overflow:hidden;
                             transition:all .4s  ease-in-out
                         }
-                        .espacio6:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
-                            transition:all .4s  ease-in-out;}
+                            .espacio3:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
+                                transition:all .4s  ease-in-out;}
+
+                                .espacio4 {overflow:hidden;
+                                    transition:all .4s  ease-in-out
+                                }
+                                    .espacio4:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
+                                        transition:all .4s  ease-in-out;}
+
+                                    .espacio5 {overflow:hidden;
+                                        transition:all .4s  ease-in-out
+                                    }
+                                        .espacio5:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
+                                            transition:all .4s  ease-in-out;}
+
+                                            .espacio6 {overflow:hidden;
+                                                transition:all .4s  ease-in-out
+                                            }
+                                                .espacio6:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
+                                                    transition:all .4s  ease-in-out;}
+
+                                                        .espacio7 {overflow:hidden;
+                                                             transition:all .4s  ease-in-out
+                                                        }
+                                                            .espacio7:hover{-webkit-transform:scale(1.1);transform:scale(1.1);
+                                                                transition:all .4s  ease-in-out;}
 
 
                             
